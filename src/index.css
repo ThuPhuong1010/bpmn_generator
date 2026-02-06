@@ -1,0 +1,21 @@
+/* src/index.css */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: white !important; /* Buộc nền trắng */
+}
+
+/* Sửa lỗi text tàng hình */
+.djs-label {
+  fill: black !important;
+}
+
+/* Hiển thị viền Pool/Lane đen đậm cho BA dễ nhìn */
+.djs-visual rect, .djs-visual polyline, .djs-visual path {
+  stroke: black !important;
+}
+
+.djs-palette {
+  background-color: #f8f9fa !important;
+}
