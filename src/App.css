@@ -1,0 +1,15 @@
+html, body, #root {
+  height: 100%; width: 100%; margin: 0;
+  background-color: white !important;
+}
+
+/* Ép các đường kẻ của Lane và Pool hiện rõ màu đen */
+.djs-visual rect, .djs-visual path, .djs-visual polyline {
+  stroke: #000000 !important;
+  stroke-width: 2px !important;
+}
+
+.djs-label {
+  fill: #000000 !important;
+  font-weight: bold;
+}
